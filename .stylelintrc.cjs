@@ -83,5 +83,21 @@ module.exports = {
         ignorePseudoClasses: ["deep"],
       },
     ],
+    "function-no-unknown": [
+      true,
+      { ignoreFunctions: ['constant'] }
+    ],
+     // 禁止使用未知单位
+     'unit-no-unknown': [
+      true, {
+        ignoreUnits: ['rpx']
+      }
+    ],
+    "at-rule-no-unknown":[
+      true,
+      {
+        ignoreAtRules: ["each", "for", "mixin", "include"]
+      }
+    ]
   },
 };
