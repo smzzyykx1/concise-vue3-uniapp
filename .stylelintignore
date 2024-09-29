@@ -1,0 +1,6 @@
+/dist/*
+.husky
+# 去掉字体库校验
+**/font/*
+**/static/*
+App.vue
